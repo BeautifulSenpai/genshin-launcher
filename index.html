@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Impact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="layout">
+        <div class="drag__bar">
+            <a class="drag__bar__icon" id="settings-btn">
+                <i class="fa-solid fa-gear"></i>
+            </a>
+            <a class="drag__bar__icon" id="minimize-btn">
+                <i class="fa-solid fa-minus"></i>
+            </a>
+            <a class="drag__bar__icon" id="close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </a>
+        </div>
+        
+        <div class="sidebar">
+            <div class="sidebar__logo">
+                <img src="img/hoyoplay.png" class="sidebar__logo__img" draggable="false">
+            </div>
+            <div class="sidebar__item">
+                <div class="sidebar__item__game active">
+                    <img src="img/genshin.png" draggable="false">
+                </div>
+                <div class="sidebar__item__game">
+                    <img src="img/zzz.png" draggable="false">
+                </div>
+                <div class="sidebar__item__game">
+                    <img src="img/hsr.png" draggable="false">
+                </div>
+                <div class="sidebar__divider"></div>
+                <div class="sidebar__item__game">
+                    <i class="fa-solid fa-border-all">
+                        <span class="sidebar__item__game__icon"></span>
+                    </i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="content">
+            <img src="img/bg.jpg" class="background__image" draggable="false">
+            <div class="darkening__overlay"></div>
+
+            <div class="left__content__container">
+                <h2>Version 5.0 Now Available</h2>
+                <h1>Flowers Resplendent on<br>the Sun-Scorched Sojourn</h1>
+                <button class="transparent__button">Version Highlights</button>
+                <div class="slider__container">
+                    <div class="slider">
+                        <div class="slider__item"><img src="img/slide1.jpg"></div>
+                        <div class="slider__item"><img src="img/slide2.jpg"></div>
+                        <div class="slider__item"><img src="img/slide3.jpg"></div>
+                    </div>
+                    <div class="slider__footer">
+                        <div class="slider__navigation">
+                            <a href="#" class="slider__navigation__link active">Events</a>
+                            <a href="#" class="slider__navigation__link">Notices</a>
+                            <a href="#" class="slider__navigation__link">News</a>
+                        </div>
+                        <div class="slider__event">
+                            <span class="slider__event__text">"Flowers Resplendent on the Sun-Scorched...</span>
+                            <span class="slider__event__date">08/28</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right__sidebar">
+            <div class="media__icons">
+                <a href="#" class="media__icons__link">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="#" class="media__icons__link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="#" class="media__icons__link">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+                <a href="#" class="media__icons__link">
+                    <i class="fa-brands fa-square-reddit"></i>
+                </a>
+                <a href="#" class="media__icons__link">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                </a>
+                <a href="#" class="media__icons__link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#" class="media__icons__link">
+                    <i class="fa-solid fa-house"></i>
+                </a>
+                <a href="#" class="media__icons__link">
+                    <i class="fa-solid fa-headset"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="bottom__right__container">
+            <button class="main__button">
+                <i class="fa-solid fa-circle-play"></i>
+                <span>Start Game</span>
+            </button>
+            <button class="circle__button">
+                <i class="fa-solid fa-bars"></i>
+                <span class="button__event"></span>
+            </button>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
